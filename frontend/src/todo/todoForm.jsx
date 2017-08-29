@@ -10,7 +10,7 @@ export default props => {
         } else if (e.key === 'Escape') {
             props.handleClear()
         }
-    }
+    } 
     
     return (
         <div role="form" className="todoForm">
